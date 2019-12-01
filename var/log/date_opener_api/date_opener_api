@@ -1,0 +1,110 @@
+2019-12-01 17:58:18 DEBUG Logger Initialized
+2019-12-01 17:58:26 DEBUG Logger Initialized
+2019-12-01 18:01:10 DEBUG Logger Initialized
+2019-12-01 20:23:20 DEBUG Logger Initialized
+2019-12-01 22:24:54 DEBUG Logger Initialized
+2019-12-01 22:25:45 ERROR Exception occurs in API module: Python int too large to convert to C long
+Traceback (most recent call last):
+  File "C:\Users\DELL\Desktop\fyle1\date_extract\Scripts\date_extract_main.py", line 99, in extract_date
+    date_in_dt = list(datefinder.find_dates(imageTextToken))
+  File "C:\Users\DELL\Anaconda3\envs\date_image_venv_2\lib\site-packages\datefinder\__init__.py", line 31, in find_dates
+    as_dt = self.parse_date_string(date_string, captures)
+  File "C:\Users\DELL\Anaconda3\envs\date_image_venv_2\lib\site-packages\datefinder\__init__.py", line 101, in parse_date_string
+    as_dt = parser.parse(date_string, default=self.base_date)
+  File "C:\Users\DELL\Anaconda3\envs\date_image_venv_2\lib\site-packages\dateutil\parser\_parser.py", line 1358, in parse
+    return DEFAULTPARSER.parse(timestr, **kwargs)
+  File "C:\Users\DELL\Anaconda3\envs\date_image_venv_2\lib\site-packages\dateutil\parser\_parser.py", line 654, in parse
+    ret = self._build_naive(res, default)
+  File "C:\Users\DELL\Anaconda3\envs\date_image_venv_2\lib\site-packages\dateutil\parser\_parser.py", line 1229, in _build_naive
+    naive = default.replace(**repl)
+OverflowError: Python int too large to convert to C long
+2019-12-01 22:32:46 ERROR Exception occurs in API module: Python int too large to convert to C long
+Traceback (most recent call last):
+  File "C:\Users\DELL\Desktop\fyle1\date_extract\Scripts\date_extract_main.py", line 99, in extract_date
+    date_in_dt = list(datefinder.find_dates(imageTextToken))
+  File "C:\Users\DELL\Anaconda3\envs\date_image_venv_2\lib\site-packages\datefinder\__init__.py", line 31, in find_dates
+    as_dt = self.parse_date_string(date_string, captures)
+  File "C:\Users\DELL\Anaconda3\envs\date_image_venv_2\lib\site-packages\datefinder\__init__.py", line 101, in parse_date_string
+    as_dt = parser.parse(date_string, default=self.base_date)
+  File "C:\Users\DELL\Anaconda3\envs\date_image_venv_2\lib\site-packages\dateutil\parser\_parser.py", line 1358, in parse
+    return DEFAULTPARSER.parse(timestr, **kwargs)
+  File "C:\Users\DELL\Anaconda3\envs\date_image_venv_2\lib\site-packages\dateutil\parser\_parser.py", line 654, in parse
+    ret = self._build_naive(res, default)
+  File "C:\Users\DELL\Anaconda3\envs\date_image_venv_2\lib\site-packages\dateutil\parser\_parser.py", line 1229, in _build_naive
+    naive = default.replace(**repl)
+OverflowError: Python int too large to convert to C long
+2019-12-01 22:33:52 ERROR Exception occurs in API module: Python int too large to convert to C long
+Traceback (most recent call last):
+  File "C:\Users\DELL\Desktop\fyle1\date_extract\Scripts\date_extract_main.py", line 99, in extract_date
+    date_in_dt = list(datefinder.find_dates(imageTextToken))
+  File "C:\Users\DELL\Anaconda3\envs\date_image_venv_2\lib\site-packages\datefinder\__init__.py", line 31, in find_dates
+    as_dt = self.parse_date_string(date_string, captures)
+  File "C:\Users\DELL\Anaconda3\envs\date_image_venv_2\lib\site-packages\datefinder\__init__.py", line 101, in parse_date_string
+    as_dt = parser.parse(date_string, default=self.base_date)
+  File "C:\Users\DELL\Anaconda3\envs\date_image_venv_2\lib\site-packages\dateutil\parser\_parser.py", line 1358, in parse
+    return DEFAULTPARSER.parse(timestr, **kwargs)
+  File "C:\Users\DELL\Anaconda3\envs\date_image_venv_2\lib\site-packages\dateutil\parser\_parser.py", line 654, in parse
+    ret = self._build_naive(res, default)
+  File "C:\Users\DELL\Anaconda3\envs\date_image_venv_2\lib\site-packages\dateutil\parser\_parser.py", line 1229, in _build_naive
+    naive = default.replace(**repl)
+OverflowError: Python int too large to convert to C long
+2019-12-01 22:35:39 ERROR Exception occurs in API module: Python int too large to convert to C long
+Traceback (most recent call last):
+  File "C:\Users\DELL\Desktop\fyle1\date_extract\Scripts\date_extract_main.py", line 99, in extract_date
+    date_in_dt = list(datefinder.find_dates(imageTextToken))
+  File "C:\Users\DELL\Anaconda3\envs\date_image_venv_2\lib\site-packages\datefinder\__init__.py", line 31, in find_dates
+    as_dt = self.parse_date_string(date_string, captures)
+  File "C:\Users\DELL\Anaconda3\envs\date_image_venv_2\lib\site-packages\datefinder\__init__.py", line 101, in parse_date_string
+    as_dt = parser.parse(date_string, default=self.base_date)
+  File "C:\Users\DELL\Anaconda3\envs\date_image_venv_2\lib\site-packages\dateutil\parser\_parser.py", line 1358, in parse
+    return DEFAULTPARSER.parse(timestr, **kwargs)
+  File "C:\Users\DELL\Anaconda3\envs\date_image_venv_2\lib\site-packages\dateutil\parser\_parser.py", line 654, in parse
+    ret = self._build_naive(res, default)
+  File "C:\Users\DELL\Anaconda3\envs\date_image_venv_2\lib\site-packages\dateutil\parser\_parser.py", line 1229, in _build_naive
+    naive = default.replace(**repl)
+OverflowError: Python int too large to convert to C long
+2019-12-01 22:37:57 ERROR Exception occurs in API module: Python int too large to convert to C long
+Traceback (most recent call last):
+  File "C:\Users\DELL\Desktop\fyle1\date_extract\Scripts\date_extract_main.py", line 99, in extract_date
+    date_in_dt = list(datefinder.find_dates(imageTextToken))
+  File "C:\Users\DELL\Anaconda3\envs\date_image_venv_2\lib\site-packages\datefinder\__init__.py", line 31, in find_dates
+    as_dt = self.parse_date_string(date_string, captures)
+  File "C:\Users\DELL\Anaconda3\envs\date_image_venv_2\lib\site-packages\datefinder\__init__.py", line 101, in parse_date_string
+    as_dt = parser.parse(date_string, default=self.base_date)
+  File "C:\Users\DELL\Anaconda3\envs\date_image_venv_2\lib\site-packages\dateutil\parser\_parser.py", line 1358, in parse
+    return DEFAULTPARSER.parse(timestr, **kwargs)
+  File "C:\Users\DELL\Anaconda3\envs\date_image_venv_2\lib\site-packages\dateutil\parser\_parser.py", line 654, in parse
+    ret = self._build_naive(res, default)
+  File "C:\Users\DELL\Anaconda3\envs\date_image_venv_2\lib\site-packages\dateutil\parser\_parser.py", line 1229, in _build_naive
+    naive = default.replace(**repl)
+OverflowError: Python int too large to convert to C long
+2019-12-01 22:44:32 ERROR Exception occurs in API module: Python int too large to convert to C long
+Traceback (most recent call last):
+  File "C:\Users\DELL\Desktop\fyle1\date_extract\Scripts\date_extract_main.py", line 99, in extract_date
+    date_in_dt = list(datefinder.find_dates(imageTextToken))
+  File "C:\Users\DELL\Anaconda3\envs\date_image_venv_2\lib\site-packages\datefinder\__init__.py", line 31, in find_dates
+    as_dt = self.parse_date_string(date_string, captures)
+  File "C:\Users\DELL\Anaconda3\envs\date_image_venv_2\lib\site-packages\datefinder\__init__.py", line 101, in parse_date_string
+    as_dt = parser.parse(date_string, default=self.base_date)
+  File "C:\Users\DELL\Anaconda3\envs\date_image_venv_2\lib\site-packages\dateutil\parser\_parser.py", line 1358, in parse
+    return DEFAULTPARSER.parse(timestr, **kwargs)
+  File "C:\Users\DELL\Anaconda3\envs\date_image_venv_2\lib\site-packages\dateutil\parser\_parser.py", line 654, in parse
+    ret = self._build_naive(res, default)
+  File "C:\Users\DELL\Anaconda3\envs\date_image_venv_2\lib\site-packages\dateutil\parser\_parser.py", line 1229, in _build_naive
+    naive = default.replace(**repl)
+OverflowError: Python int too large to convert to C long
+2019-12-01 23:18:03 ERROR Exception occurs in API module: Python int too large to convert to C long
+Traceback (most recent call last):
+  File "C:\Users\DELL\Desktop\fyle1\date_extract\Scripts\date_extract_main.py", line 99, in extract_date
+    date_in_dt = list(datefinder.find_dates(imageTextToken))
+  File "C:\Users\DELL\Anaconda3\envs\date_image_venv_2\lib\site-packages\datefinder\__init__.py", line 31, in find_dates
+    as_dt = self.parse_date_string(date_string, captures)
+  File "C:\Users\DELL\Anaconda3\envs\date_image_venv_2\lib\site-packages\datefinder\__init__.py", line 101, in parse_date_string
+    as_dt = parser.parse(date_string, default=self.base_date)
+  File "C:\Users\DELL\Anaconda3\envs\date_image_venv_2\lib\site-packages\dateutil\parser\_parser.py", line 1358, in parse
+    return DEFAULTPARSER.parse(timestr, **kwargs)
+  File "C:\Users\DELL\Anaconda3\envs\date_image_venv_2\lib\site-packages\dateutil\parser\_parser.py", line 654, in parse
+    ret = self._build_naive(res, default)
+  File "C:\Users\DELL\Anaconda3\envs\date_image_venv_2\lib\site-packages\dateutil\parser\_parser.py", line 1229, in _build_naive
+    naive = default.replace(**repl)
+OverflowError: Python int too large to convert to C long
