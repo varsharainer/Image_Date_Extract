@@ -1,2 +1,2 @@
-# Image_Date_Extract
+# Image_Date_Extracter
 Date extraction from receipts
