@@ -11,7 +11,7 @@ Flask-SSLify==0.1.5
 gunicorn==20.0.0
 openssl-python==0.1.1
 pandas>=0.25.3
-Pillow==6.2.1
+Pillow==8.1.1
 pycparser==2.19
 pyOpenSSL==19.0.0
 pyparsing==2.4.5
