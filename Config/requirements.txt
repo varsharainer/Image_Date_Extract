@@ -6,7 +6,7 @@ boto3==1.10.16
 botocore==1.13.16
 Flask==1.1.1
 Flask-Compress==1.4.0
-Flask-Cors==3.0.8
+Flask-Cors==3.0.9
 Flask-SSLify==0.1.5
 gunicorn==20.0.0
 openssl-python==0.1.1
